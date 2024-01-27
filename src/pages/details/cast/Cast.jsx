@@ -8,7 +8,6 @@ import avatar from "../../../assets/avatar.png";
 const Cast = ({ data, loading }) => {
     const { url } = useSelector((state) => state.home);
     
-
     
     const skeleton = () => {
         return (
